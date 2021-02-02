@@ -1,0 +1,291 @@
+header, nav,main,footer,figure,section,aside { 
+	display: block;
+}
+
+/********************************************************************************/		
+/*  styles for all pages*/
+/********************************************************************************/
+
+html,body {
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	height:150px;
+	background-image: url("images/purp.jpeg");
+}
+
+header h1{
+	font-size:40px;
+}
+
+header h1.color{
+	color:#5b17b5;
+}
+
+header h3{
+	font-size:40px;
+}
+
+header h3.color{
+	color:#5b17b5;
+}
+
+nav{ 
+	float:right;
+}
+
+header nav ul li a{
+	color:#2f0766;
+	margin-right:20px;
+	font-size:25px;
+}
+
+header nav ul li{
+	display:inline;
+}
+
+centre{
+	text-align: centre;
+}
+
+main{ 
+	width: 100%;
+	margin-left:auto;
+	margin-right:auto;
+
+
+} 
+
+.center{ 
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom:20px;
+	padding-top:20px;
+	margin:20px;
+	text-align:center;
+
+}
+ 
+article{ 
+	width:33%;
+	margin-right: auto;
+	margin-left: auto;
+	float:left;
+	margin-bottom:20px;
+	margin-top:20px;
+	text-align:center;
+	padding-bottom:20px;
+	
+
+}
+
+footer{
+	background-color:#f7f2ff;
+	text-align:center;
+}
+
+.footpad{
+	margin-top:25px;
+	padding-top:30px;
+}
+
+a{
+	text-decoration:none;
+	color:#2f0766;
+}
+
+a:hover{
+	color:#5b17b5;
+}
+
+#banner-image{
+	background-image: url('../images/cybersecurity.jfif');
+	height: 400px;
+}
+
+#banner-image h1{
+	color:black;
+	font-size: 40px;
+	font-weight: 300;
+	text-align:center;
+
+}
+
+#banner-image h2{
+	color:black;
+	font-size: 50px;
+	font-weight: 600;
+	text-align:center;
+}
+
+.more-link{
+	border:solid 1px #5b17b5;
+	color:#5b17b5;
+	padding: 6px 20px;
+	border-radius:5px;
+	background-color:#ffffff;
+}
+
+.more-link:hover{
+	color:#ffffff;
+	background-color:#5b17b5;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #5b17b5;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/********************************************************************************/
+/*Used for the progress bar */
+#myProgress {
+  width: 100%;
+  background-color: #5b17b5;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color: #2f0766;
+}
+/********************************************************************************/		
+/*  styles for CONTACT page*/
+/********************************************************************************/
+#map {
+	text-align:center;
+}
+label{
+	display:inline-block;
+	width:150px;
+}
+/********************************************************************************/		
+/*  style for Two columns as shown on tutorial page/
+/********************************************************************************/
+.column {
+    float: left;
+    width: 50%;
+}
+
+.column2 {
+	padding-top: 20px;
+	margin: top; 
+	text-align: center;
+	
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+* {
+    box-sizing: border-box;
+}
+
+/********************************************************************************/		
+/*  style for social media icons to be placed in footer*/
+/********************************************************************************/
+.social{
+	padding-top:20px;
+	height:45px;
+	width:200px;
+	float:right;
+
+}
+
+.social ul{
+	padding:0px;
+	margin: 0px;
+}
+
+.social li{
+	float:left;
+	list-style:none;
+	padding-left:15px;
+}
+.wrapper{
+	width:910px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#myProgress {
+  width: 100%;
+  background-color: #000000;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color: #4CAF50;
+}
+
+/**********************************************************
+Script 6:Image Slide Show (slideshow2.html)
+**********************************************************
+*/
+
+@keyframes fade {
+	0% { opacity: 0; }
+	15% { opacity: 1; }
+	85% { opacity: 1; }
+	100% { opacity: 0; }
+}
+
+figure#slideshow {
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+}
+
+figure#slideshow img {
+	position: absolute;
+	left: 0; top: 0;
+	width: 100%;
+	height: auto;
+	opacity: 0;
+}
+
+figure#slideshow img:first-child { 
+	position: relative;
+}

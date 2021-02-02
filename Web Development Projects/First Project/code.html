@@ -1,0 +1,118 @@
+<!DOCTYPE HTML><!-- This file uses HTML5-->
+<html>
+	<head>
+		<title>Threats || Cybersecurity</title>
+		<script src = "js/main.js"> </script>
+		<link rel="stylesheet"  href="css/style.css" />
+		<script src = "js/main.js">  </script>
+		<meta charset="UTF-8">
+		<script>
+		function start()
+		{
+			browserDetection();
+			hitCount();
+		}
+		</script>
+    </head>
+	
+	<body><!-- This is the start of the web page-->
+	
+		<header><!-- This is the Header bar-->
+				<h1 id="text" onmouseover="mouseOver()" onmouseout="mouseOut()"> <a href="index.html">Cybersecurity</a> </h1>
+				<nav><!-- This is the Navigation bar-->
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="work.html"> Intro</a></li>
+						<li><a href="code.html"> List of Threats</a></li>
+						<li><a href="who.html"> About Me</a></li>
+						<li><a href="contact.html"> Contact Us</a></li>
+					</ul>
+				</nav>
+		</header>
+
+		
+		<main><!-- This is  the main content -->
+			<section>
+				<h2>There are many different types of threats that are present with regards to Information Security.</h2>
+				<br>
+				<h2>These include: </h2>
+			</section>
+			
+			
+			<section><!-- insert the page content here -->
+			
+				<div class="row">
+					<div class="column">
+						<img src="images/botnet.png">
+							<h2>Botnet</h2>
+							<p>A collection of software robots, or 'bots', that creates an army of infected computers (known as ‘zombies') that are remotely controlled by the originator</p>
+					</div>
+					
+					<div class="column">
+						<img src="images/ddos.png">
+							<h2>Distributed denial-of-service (DDoS) attack</h2>
+							<p>
+								A distributed denial-of-service (DDoS) attack — or DDoS attack — is when a malicious user gets a network of zombie computers to sabotage a specific website or server. 
+								The attack happens when the malicious user tells all the zombie computers to contact a specific website or server over and over again. 
+								That increase in the volume of traffic overloads the website or server causing it to be slow for legitimate users, sometimes to the point that the website or server shuts down completely.
+							</p>
+					</div>
+				</div>
+				
+				
+					<section>
+					</section>
+					
+					
+				<div class="row">	
+						<div class="column">
+							<img src="images/hacked.png">
+								<h2>Hacking</h2>
+								<p>
+									Hacking is a term used to describe actions taken by someone to gain unauthorized access to a computer. 
+									The availability of information online on the tools, techniques, and malware makes it easier for even non-technical people to undertake malicious activities.
+								</p>
+						</div>
+						
+						<div class="column">
+							<img src="images/malware.png">
+								<h2>Malware</h2>
+								<p>
+									Malware is one of the more common ways to infiltrate or damage your computer.
+									Malicious software that infects your computer, such as computer viruses, worms, Trojan horses, spyware, and adware.
+								</p>
+						</div>
+				</div>
+
+			</section>
+			
+			<section>
+			</section>
+			
+			
+			<h4 align="middle">Fun little feature: </h4>
+			
+			<section><!-- insert the page content here -->
+				<img id="myImage" onclick="changeImage()" src="images/monitor.gif">
+				<p>
+					<strong>Click the monitor to invert its colours.</strong>
+				</p>
+			</section>
+			
+        </main>
+		
+		<footer><!-- This is the Footer bar-->
+               <p><a href="index.html">Home</a> 
+			   | <a href="credits.html">Credits </a>
+               | <a href="https://validator.w3.org/">HTML Validator </a>			   
+			   | <a href="contact.html">Contact Us</a></p>
+			  
+				<div class= "footpad">Copyright &copy; Mohammad Touihri 2019 </div>
+				<div id = "browser"></div>
+				<br>				
+				Times Visited: <div id = "hits"></div>
+				
+        </footer>
+		
+	</body>
+</html>

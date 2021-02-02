@@ -1,0 +1,358 @@
+header, nav, main, footer, section, form, label
+{
+    display: block;
+}
+
+
+
+/******************************************/
+/* Styles for all Pages */
+/******************************************/
+
+html,body 
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+form, label
+{
+    margin: 12px;
+}
+
+
+.message
+{
+    padding: 90px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+#Registration-Image
+{
+    background-image: url('../Images/register.jpg');
+	height: 400px;
+}
+
+
+#logout-image
+{
+	background-image: url('../Images/logout.jpg');
+	height: 400px;
+}
+
+
+#logout-image h1
+{
+	color: black;
+	font-size: 40px;
+	font-weight: 300;
+	text-align: center;
+}
+
+
+#User-Image
+{
+	background-image: url('../Images/UI.jpg');
+	height: 400px;
+}
+
+
+.UserPanel
+{
+	padding: 30px;
+	text-align: center;
+}
+
+
+.logout-image
+{
+	text-align: center;
+}
+
+
+.SearchResult
+{
+	margin: 10px;
+}
+
+
+.SearchInput
+{
+	margin: 10px;
+}
+
+
+.AboutMe
+{
+	margin: 2vh;
+}
+
+
+header
+{
+	height: 150px;
+}
+
+
+main
+{ 
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+
+.center
+{ 
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	margin: 20px;
+    text-align: center;
+}
+ 
+
+article
+{ 
+	width: 33%;
+	margin-right: auto;
+	margin-left: auto;
+	float: left;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+
+footer
+{
+	background-color:#f7f2ff;
+	text-align: center;
+}
+
+
+.footpad
+{
+	margin-top: 25px;
+	padding-top: 30px;
+}
+
+
+header h1
+{
+	font-size: 40px;
+}
+
+
+header h1.color
+{
+	color:#5b17b5;
+}
+
+
+header h3
+{
+	font-size: 40px;
+}
+
+
+header h3.color
+{
+	color:#5b17b5;
+}
+
+
+Nav
+{
+    color: white;
+    float: right;
+}
+
+
+header nav ul li a
+{
+	color: blue;
+	margin-right: 20px;
+	font-size: 25px;
+}
+
+
+header nav ul li
+{
+	display: inline;
+}
+
+
+a
+{
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover
+{
+	color: grey;
+}
+
+
+.more-link
+{
+	border: solid 1px blue;
+	color:blue;
+	padding: 6px 20px;
+	border-radius: 5px;
+	background-color:#ffffff;
+}
+
+
+.more-link:hover
+{
+	color:#ffffff;
+	background-color:#5b17b5;
+}
+
+
+#banner-image
+{
+	background-image: url('../Images/LibraryHeaderImage.jpg');
+	height: 400px;
+}
+
+
+#banner-image h1
+{
+	color: black;
+	font-size: 40px;
+	font-weight: 300;
+	text-align: center;
+}
+
+
+.button 
+{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: navy;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+
+  .button span 
+  {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+
+  #CancelButton
+  {
+	margin: 10px;
+  }
+
+
+  .button span:after 
+  {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  
+  
+  .button:hover span 
+  {
+    padding-right: 25px;
+  }
+  
+
+  .button:hover span:after 
+  {
+    opacity: 1;
+    right: 0;
+  }
+
+
+  .social
+  {
+	padding-top: 20px;
+	height: 45px;
+	width: 200px;
+	float: right;
+
+}
+
+.social ul
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+.social li
+{
+	float: left;
+	list-style: none;
+	padding-left: 15px;
+}
+
+
+.wrapper
+{
+	width: 910px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+.row:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+* 
+{
+    box-sizing: border-box;
+}
+
+
+#contact
+{
+    text-align: center;
+}
+
+.column 
+{
+    float: left;
+    width: 50%;
+}
+
+.column2 
+{
+	padding-top: 20px;
+	margin: top; 
+	text-align: center;
+	
+}

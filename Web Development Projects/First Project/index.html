@@ -1,0 +1,108 @@
+<!DOCTYPE HTML><!-- This file uses HTML5-->
+<html lang = "en">
+	<head>
+		<title>Home || Cybersecurity</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet"  href="css/style.css" />
+		<script src = "js/main.js">  </script>
+		<script>
+		function start()
+		{
+			browserDetection();
+			hitCount();
+			timeDigital();
+		}
+		</script>
+    </head>
+	
+	
+	<body onload="start()" ><!-- This is the start of the web page-->
+
+		<header><!-- This is the Header bar-->
+			<h1 id="text" onmouseover="mouseOver()" onmouseout="mouseOut()"> <a href="index.html">Cybersecurity</a> </h1>
+			
+		    <nav><!-- This is the Navigation bar-->
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="work.html"> Intro</a></li>
+					<li><a href="code.html"> List of Threats</a></li>
+					<li><a href="who.html"> About Me</a></li>
+					<li><a href="contact.html"> Contact Us</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		
+		<div id = "banner-image">
+			<br><br><br>
+			<h1><a class="button" href= "work.html" style="vertical-align:middle"><span> Intro</span></a>
+			</h1>
+		</div>
+			
+		<main><!-- This is  the main content -->
+
+
+			<div class="center"><!-- insert the page content here -->
+				<article>
+					<img src="images/padlock.png" alt="Padlock">
+				    <h2>Intro</h2>
+					<p>What exactly is Cybersecurity?</p>
+					<a href="work.html" class="more-link">View more</a>
+					</article>
+				
+				<article> 
+					<img src="images/virus.png" alt="Virus">
+				    <h2>Types of Threats</h2>
+					<p>Get to know the different types of threats</p>
+					<a href="code.html" class="more-link">View more</a>
+				</article>
+				
+				<article> 
+					<img src="images/customer.png" alt>
+				    <h2>Contact Info</h2>
+					<p>Info on how to contact me.</p>
+					<a href="contact.html" class="more-link">Contact Info</a>
+				</article>
+			</div>
+			
+			
+			
+			<div class="center"><!-- insert the page content here -->
+				<div class = "row">
+					<img src="images/codem.png" alt="Image of a computer">
+					<p>To find out more about me and about the purpose of this website press here: </p>
+					<a href="who.html" class="more-link"> About the creator</a>
+				</div>
+			</div>
+			
+			
+        </main>
+		
+		
+		<footer><!-- This is the Footer bar-->
+			<div class= "social">
+				<ul>
+					<li><img src="images/icons/facebook.png" alt="Facebook Icon"  width="45"/></li>
+					<li><img src="images/icons/twitter.png" alt="Twitter Icon"  width="45"/></li>
+					<li><img src="images/icons/google.png" alt="Google Icon"  width="45"></li>
+				</ul>
+			</div>
+			
+			<div class ="wrapper">
+              <p><a href="index.html">Home</a> 
+			   | <a href="credits.html">Credits </a>
+               | <a href="https://validator.w3.org/">HTML Validator </a>			   
+			   | <a href="contact.html">Contact Us</a>
+			  </p>
+			  
+				<div class= "footpad">Copyright &copy; Mohammad Touihri 2019 </div>
+				<div id = "browser"></div>
+				<br>
+				Times visited: <div id = "hits"></div>
+				<div id = "digtime"></div>
+			</div>
+
+		</footer>
+		
+	</body>
+</html>

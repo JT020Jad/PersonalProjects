@@ -1,0 +1,112 @@
+<!DOCTYPE HTML><!-- This file uses HTML5-->
+<html>
+	<head>
+		<title>Intro || Cybersecurity</title>
+		<link rel="stylesheet"  href="css/style.css" />
+		<script src = "js/main.js">  </script>
+		<meta charset="UTF-8">
+		<meta> 
+		<script>
+		function start()
+		{
+			slideShow();
+			browserDetection();
+			hitCount();
+		}
+		</script>
+    </head>
+					
+	<body onload = "start()"><!-- This is the start of the web page-->
+					
+		<header><!-- This is the Header bar-->
+			<h1 id="text" onmouseover="mouseOver()" onmouseout="mouseOut()"> <a href="index.html">Cybersecurity</a> </h1>
+		    <nav><!-- This is the Navigation bar-->
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="work.html"> Intro</a></li>
+					<li><a href="code.html"> List of Threats</a></li>
+					<li><a href="who.html"> About Me</a></li>
+					<li><a href="contact.html"> Contact Us</a></li>
+				</ul>
+			</nav>
+		</header>
+					
+					
+		<main><!-- This is  the main content -->
+			<!-- Script 6: Slide shows-->
+			<figure id="slideshow">
+				<img src="images/1.jpg" alt>
+				<img src="images/2.jpg" alt>
+				<img src="images/3.jpg" alt>
+				<img src="images/4.jpg" alt>
+				<img src="images/5.jpg" alt>
+			</figure>
+			
+			<div align="middle">
+				<h1><a class="button" href= "code.html" style="vertical-align:middle"><span> Types of Threats</span></a>
+				</h1>
+			</div>
+				
+			<br><br>	
+				
+			<h2 align="center"> What is Cybersecurity? </h2>
+					
+			<section><!-- insert the page content here -->
+				Computer Security, cybersecurity or Information Technology Security (IT Security) is the protection of 
+				computer systems from the theft of, or damage to their hardware, software, or electronic data, as well as 
+				from the disruption or misdirection of the services they provide.
+			</section>
+					
+			<hr>
+					
+			<section>
+				<h3> People going into the cybersecurity field of work would need to be proficient in: </h3>
+					<ol>
+						<li> Intrusion Detection </li>
+						<br>	
+						<li> Malware Analysis and Reversing </li>
+						<br>
+						<li> Programming know-how </li>
+						<br>
+						<li> Thinking like a black-hat </li>
+						<br>
+						<li> Building a well-rounded skillset </li> 
+						<br>
+						<li> Risk Analysis and Mitigation </li>
+						<br>
+						<li> Cloud Security </li>
+						<br>
+						<li> Security Analysis </li>
+					</ol>	
+			</section>
+						
+        </main>				
+						
+						
+		<footer><!-- This is the Footer bar-->
+			<div class= "social">
+				<ul>
+					<li><img src="images/icons/facebook.png" alt="Facebook Icon"  width="45"/></li>
+					<li><img src="images/icons/twitter.png" alt="Twitter Icon"  width="45"/></li>
+					<li><img src="images/icons/google.png" alt="Google Icon"  width="45"></li>
+				</ul>
+			</div>
+					
+			<div class ="wrapper">
+				<p><a href="index.html">Home</a> 
+				   | <a href="credits.html">Credits </a>
+				   | <a href="https://validator.w3.org/">HTML Validator </a>			   
+				   | <a href="contact.html">Contact Us</a>
+				</p>
+					
+					
+				<div class= "footpad">Copyright &copy; Mohammad Touihri 2019 </div>
+				<div id = "browser"></div>
+				<br>				
+				Times Visited: <div id = "hits"></div>
+			</div>
+			
+		</footer>
+				
+	</body>
+</html>

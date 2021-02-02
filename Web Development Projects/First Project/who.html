@@ -1,0 +1,70 @@
+<!DOCTYPE html><!-- This file uses HTML5-->
+<html>
+	<head>
+		<title>About Me || Cybersecurity</title>
+		<script src = "js/main.js"> </script>
+		<link rel="stylesheet"  href="css/style.css" />
+		<meta charset="UTF-8">
+		<script>
+		function start()
+		{
+			browserDetection();
+			hitCount();
+		}
+		</script>
+    </head>
+	
+	<body><!-- This is the start of the web page-->
+	
+		<header><!-- This is the Header bar-->
+			<h1 id="text" onmouseover="mouseOver()" onmouseout="mouseOut()"> <a href="index.html">Cybersecurity</a> </h1>
+		    <nav><!-- This is the Navigation bar-->
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="work.html"> Intro</a></li>
+					<li><a href="code.html"> List of Threats</a></li>
+					<li><a href="who.html"> About Me</a></li>
+					<li><a href="contact.html"> Contact Us</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		
+		<main><!-- This is  the main content -->
+		
+			<section>
+			
+				<h2>Hello,</h2>
+				My name is Mohammad Touihri. I'm a student at TU Dublin with a high passion for programming.
+				This website was made for a Web Development project, in which we were tasked with creating a website of at least 5 pages.
+				<br>
+				I personally chose the topic of "Cybersecurity" as I have a general interest regarding it all. It truly fascinates me how Cybersecurity Analysts are able to
+				analyse and prevent security threats and exploitation online as well as being capable of retaliating in various different ways that leaves the perpetrator unable 
+				to act any further.
+
+			</section>
+			
+
+			<section><!-- insert the page content here -->
+				<canvas id = "canvas" width ="950" height ="200"></canvas>
+			</section>
+			
+        </main>
+		
+		<footer><!-- This is the Footer bar-->
+               <p>
+				 <a href="index.html">Home</a> 
+			   | <a href="credits.html">Credits </a>
+               | <a href="https://validator.w3.org/">HTML Validator </a>			   
+			   | <a href="contact.html">Contact Us</a>
+			   </p>
+			  
+				<div class= "footpad"> Copyright &copy; Mohammad Touihri 2019 </div>
+				<div id = "browser"></div>
+				<br>				
+				Times Visited: <div id = "hits"></div>
+				
+        </footer>
+		
+	</body>
+</html>
